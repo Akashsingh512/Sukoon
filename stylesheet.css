@@ -8,6 +8,13 @@ body {
 	transition:background-color linear 5s;
 	overflow-x:hidden;
 }
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	#b1{
+		width: 80px;
+		height: 163px;
+	}
+  }
 .container {
 	display: none;
 }
